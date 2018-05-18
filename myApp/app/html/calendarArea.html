@@ -1,0 +1,12 @@
+<div>
+	<br>
+	<h2>{{ selectedOption.text }}</h2>
+	<div ng-if="selectedOption.code == 'mo2'">
+		<div class="row">
+			<calendar selected="selectedDay"></calendar>
+		</div>
+		<div class="row">
+			<span>Selected date: <b>{{selectedDay}}</b></span>
+		</div>
+	</div>
+</div>
